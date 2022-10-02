@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Faisal" />
     <meta name="description" content="I am learning HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Web Page</title>
     <link rel="icon" href="html5-logo.png" type="image/x-icon" />
     <!--
@@ -32,6 +33,80 @@
       <p style="color: blue; background-color: bisque">
         You can style your HTML and make it look pretty
       </p>
+      <a href="https://www.google.com" target="_blank"
+        ><h3>Google's Home Page</h3></a
+      >
+      <img
+        width="400"
+        src="https://ichef.bbci.co.uk/news/976/cpsprodpb/CEE3/production/_118836925_australotitan.png"
+        alt="Image cannot be displayed"
+      />
+
+      <ul>
+        <li>Apple</li>
+        <li>
+          Peach
+          <ol type="I">
+            <li>Peach 1</li>
+            <li>Peach 2</li>
+            <li>Peach 3</li>
+          </ol>
+        </li>
+        <li>Banana</li>
+      </ul>
+
+      <table>
+        <thead>
+          <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+          </tr>
+          <tr>
+            <td>four</td>
+            <td>five</td>
+            <td>six</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+
+      <!--HTML has two types of elements - Block and Inline elements-->
+      <!--Block elements take up entire width of the page-->
+      <!--Inline elements only take up as much space as needed, they can sit next to each other-->
+
+      <!--<a> tag is an inline element-->
+      <a href="#">link1</a>
+      <a href="#">link2</a>
+      <hr />
+
+      <!--<p> tag is a block element-->
+      <p htr="1">Paragraph1</p>
+      <p>Paragraph2</p>
+      <hr />
+
+      <!--Div and Span are containers, used as wrappers around other elements-->
+      <!--This helps in css(styling) which can be applied to these wrapper containers-->
+      <!--Div and Span are non-semantic elements. They have no intrinsic meaning of their own-->
+      <!--Div is block container, while Span is inline container-->
+
+      <input type="text" value="Enter text here" />
+      <br />
+      <div><input name="myRadioButton" type="radio" /></div>
+      <div><input name="myRadioButton" type="radio" /></div>
+
+      <iframe
+        src="https://www.giraffeacademy.com/"
+        width="1400"
+        height="1400"
+      ></iframe>
     </main>
     <footer></footer>
   </body>
